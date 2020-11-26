@@ -1,6 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-import RightNav from './RightNav';
+import styled from 'styled-components'
+import Burger from './Burger';
 
 const Nav = styled.nav`
             width:100%;
@@ -9,6 +9,14 @@ const Nav = styled.nav`
             padding: 0 2rem;
             display: flex;
             justify-content: space-between;
+            background-color: #192a56;
+
+            h2{
+                color: #fff;
+            }
+            .site{
+                color: red;
+            }
 
             .logo{
                 padding: 1.5rem 0;
@@ -19,9 +27,10 @@ function NavBar() {
     return (
         <Nav>
             <div className="logo">
-                <h2>Education<span>Site</span></h2>
+                <h2>Education<span className="site">Site</span></h2>
             </div>
-           <RightNav/>
+            <Burger/>
+         
         </Nav>
     )
 }
