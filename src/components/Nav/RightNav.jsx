@@ -22,6 +22,10 @@ const UL = styled.ul`
            padding-top:3.5rem;
            transition: transform 0.3s ease-in-out;
        }
+       li:hover{
+           color: #10ac84;
+           transition: 0.6s
+       }
 
        li{
            color: #fff; 
@@ -30,6 +34,7 @@ const UL = styled.ul`
 function RightNav({open}) {
     return (
         <UL open={open}>
+            
                 <li>Home</li>
                 <li>Courses</li>
                 <li>About Us</li>
