@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import RightNav from './RightNav';
 
 const Nav = styled.nav`
             width:100%;
@@ -12,15 +13,7 @@ const Nav = styled.nav`
             .logo{
                 padding: 1.5rem 0;
             }
-            ul{
-                list-style:none;
-                display: flex;
-                flex-flow: row nowrap;
-            }
-
-            li{
-                padding: 1.8rem 1rem;
-            }
+           
 `
 function NavBar() {
     return (
@@ -28,16 +21,7 @@ function NavBar() {
             <div className="logo">
                 <h2>Education<span>Site</span></h2>
             </div>
-            <ul>
-                <li>Home</li>
-                <li>Courses</li>
-                <li>About Us</li>
-                <li>Pages</li>
-                <li>Events</li>
-                <li>Blog</li>
-                 <li>Contact</li>
-                
-            </ul>
+           <RightNav/>
         </Nav>
     )
 }
