@@ -1,10 +1,11 @@
 import React from 'react';
+import NavBar from './component/Nav/NavBar';
 
 
 function App() {
   return (
     <div className="">
-       Education
+       <NavBar/>
     </div>
   );
 }
