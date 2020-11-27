@@ -1,16 +1,21 @@
-import React from 'react';
-import NavBar from './components/Nav/NavBar';
-import Header from './components/Landing/Header';
+import React, { Component } from 'react';
+import NavBar from './components/NavBar/NavBar';
+import { BrowserRouter as Router} from 'react-router-dom';
+import Section from './components/Section/Section';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+            <div>
+              <NavBar />
+              <Section/>
+            </div>
+      </Router>
+    );
+  };
+};
+
+export default App
 
 
-
-function App() {
-  return (
-    <div className="">
-      <NavBar /> 
-      <Header/>
-    </div>
-  );
-}
-
-export default App;
