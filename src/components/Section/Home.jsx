@@ -1,10 +1,10 @@
 import React from 'react'
-
+import './Home.css';
 function Home() {
     return (
-        <div>
+        <section>
             <h2>Home Component</h2>
-        </div>
+       </section>
     )
 }
 
