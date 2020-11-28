@@ -20,7 +20,7 @@ function Home() {
                             <option value="">Technology</option>
                         </select>
                         <input type="text" name="" placeholder="Search Course" />
-                        <a className="btn" href="">SEARCH</a>
+                        <a className="btn" href="#search">SEARCH</a>
                     </form>
                 </div>
          </div>
