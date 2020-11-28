@@ -1,6 +1,6 @@
 
 .container{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-image: url(../../images/header_img1.jpg);
     background-size: cover;
@@ -31,7 +31,48 @@
 
 }
 
+.achieve{
+    font-size: 3rem;
+    color: #fff;
+   
+}
+.accredited{
+    font-size: 2rem;
+    color: #fff;
+}
+.achieve{
+    text-align: center;
+    padding-top: 3rem;
+}
+.accredited{
+    text-align: center;
+    padding-top: 1rem;
+}
+.header_form{
+    border: 1px solid #ccc;
+    width: 36rem;
+    padding: 0.5rem 2rem;
+    background: #fff;
+    margin-left: 30%;
+    margin-top: 4rem;
+    text-align: center;
+}
+select{
+    padding: 0.9rem 2rem;
+}
+input{
+     padding: 0.9rem;
+     margin-left: 1rem;
+}
+.btn{
+    padding: 1rem 1.6rem;
+    margin-left: 1rem;
 
-
-
-
+}
+.btn{
+    background: #00cec9;
+    text-decoration: none;
+    padding-top: 0.8rem;
+    color: #fff;
+    border-radius: 0.2rem;
+}
