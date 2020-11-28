@@ -2,8 +2,8 @@ import React from 'react'
 import './Home.css';
 function Home() {
     return (
-        <section>
-            <h2>Home Component</h2>
+        <section className="container">
+          
        </section>
     )
 }
