@@ -22,10 +22,10 @@
         0%{
             background-image: url(../../images/header_img2.jpg);
         }
-        80%{
+        20%{
             background-image: url(../../images/header_img3.jpg);
         }
-        100%{
+        40%{
             background-image: url(../../images/header_img4.jpg);
         }
 
