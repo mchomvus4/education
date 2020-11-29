@@ -10,7 +10,7 @@ function Home() {
                 </div>
 
                 <div className="header_form">
-                    <form className="form_group">
+                    <form >
                         <select>
                             <option value="selected">CATEGORY</option>
                             <option value="">BachEnd</option>
