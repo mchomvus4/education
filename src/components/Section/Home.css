@@ -59,7 +59,7 @@
     display: flex;
 }
 select{
-    padding: 0.9rem 2rem;
+    padding: 0.9rem 3rem;
     appearance: none;
 }
 input{
@@ -104,5 +104,19 @@ input{
     }
     .accredited{
         font-size: 1.3rem;
+    }
+}
+
+.form_flex{
+    
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    flex-wrap: wrap nowrap; 
+}
+
+@media only screen and (max-width:500px){
+    .form_flex{
+        display: none;
     }
 }
