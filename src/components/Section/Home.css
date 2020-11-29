@@ -120,3 +120,20 @@ input{
         display: none;
     }
 }
+
+
+img{
+    color: gray;
+    height: 5rem;
+    width: 5rem;
+    margin-top: 2rem;  
+}
+.program{
+    margin-bottom: 2rem;
+}
+
+.flex_section{
+    display: flex;
+    justify-content: space-evenly;
+    background: #ecf0f1;
+}
