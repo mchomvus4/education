@@ -1,8 +1,4 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+
 
 header{
     min-height: 7rem;
@@ -85,6 +81,11 @@ header .close{
         z-index: 99;
         transition: 0.5s  linear;
     }
+    @media only screen and (max-width:320px){
+    h1{
+        margin-left: 2rem;
+    }
+}
 
     header ul.toggle{
         left: 0;
@@ -102,3 +103,13 @@ header .close{
     }
 }
  
+@media only screen and (max-width:768px){
+   h1.edu{
+        margin-left: 10rem;
+    }
+}
+@media only screen and (max-width:425px){
+    h1.edu{
+        margin-left: 0;
+    }
+}

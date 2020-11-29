@@ -15,7 +15,7 @@ class NavBar extends Component {
             <>
                 <header>
                     <div className="logo">
-                        <h1>education<span className="site">site</span></h1>
+                        <h1 className="edu">education<span className="site">site</span></h1>
                     </div>
                     <ul className={  toggle ? "toggle" : ""}>
                         <li><Link to="/">Home</Link></li>
