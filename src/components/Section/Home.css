@@ -50,15 +50,17 @@
 }
 .header_form{
     border: 1px solid #ccc;
-    width: 36rem;
+    width: 34rem;
     padding: 0.5rem 2rem;
     background: #fff;
     margin-left: 30%;
     margin-top: 4rem;
     text-align: center;
+    display: flex;
 }
 select{
     padding: 0.9rem 2rem;
+    appearance: none;
 }
 input{
      padding: 0.9rem;
@@ -75,4 +77,19 @@ input{
     padding-top: 0.8rem;
     color: #fff;
     border-radius: 0.2rem;
+}
+*:focus{outline: none;}
+
+@media all and (max-width:768px){
+    .container{
+        height: 100vh;
+    }
+    form{margin-left: 6rem;}
+}
+
+@media all and (max-width:425px){
+form{
+    margin-left: 0;
+}
+
 }
