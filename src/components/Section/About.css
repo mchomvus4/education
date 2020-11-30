@@ -3,6 +3,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+.about_para{
+    padding: 2rem 0rem;
+}
 
 @media only screen and (max-width:500px){
     .flex_about{
