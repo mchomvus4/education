@@ -7,6 +7,7 @@ import Event from '../Section/Event';
 import Blog from '../Section/Blog';
 import Contact from '../Section/Contact';
 import { Route } from 'react-router-dom';
+import Footer from './Footer';
 
 function Section() {
     return (
@@ -18,7 +19,7 @@ function Section() {
             <Route path="/event" component={Event} />
             <Route path="/blog" component={Blog} />
             <Route path="/contact" component={Contact} />
-            
+            <Footer/>
         </section>
     )
 }
