@@ -33,28 +33,28 @@ function Home() {
         
         <section>
             <div className="flex_section">
-                    <div>
+                    <div className="image_bg">
                         
-                        <img src={image} alt="hakuna picha"/>
+                    <img src={image} alt="hakuna picha"/>
                    <p className="program">English Programs</p>    
                     </div>
-                     <div>
+                     <div className="image_bg">
                       <img src={image1} alt="hakuna picha"/>
                    <p className="program">2yr/Community </p>    
                 </div>
-                 <div>
+                 <div className="image_bg">
                       <img src={image2} alt="hakuna picha"/>
                    <p className="program">Master Degree</p>    
                 </div>
-                 <div>
+                 <div className="image_bg">
                       <img src={image3} alt="hakuna picha"/>
                    <p className="program">Certificate / Short</p>    
                 </div>
-                 <div>
+                 <div className="image_bg">
                       <img src={image4} alt="hakuna picha"/>
                    <p className="program">Summer Holidays</p>    
                 </div>
-                 <div>
+                 <div className="image_bg">
                       <img src={image5} alt="hakuna picha"/>
                    <p className="program">Scendary / Boarding</p>    
                 </div>

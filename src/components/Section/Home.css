@@ -108,7 +108,6 @@ input{
 }
 
 .form_flex{
-    
     display: flex;
     margin-top: 3rem;
     justify-content: space-around;
@@ -123,7 +122,6 @@ input{
 
 
 img{
-    color: gray;
     height: 5rem;
     width: 5rem;
     margin-top: 2rem;  
@@ -136,4 +134,12 @@ img{
     display: flex;
     justify-content: space-evenly;
     background: #ecf0f1;
+    flex-wrap: wrap;
+}
+.image_bg:hover{
+    background: #dcdde1;
+}
+.image_bg{
+    padding: 2rem;
+
 }
