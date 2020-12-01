@@ -245,3 +245,38 @@ input{
     }
 
 }
+
+/*##################### fifth section ###############*/
+
+.flex_fifth_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 4rem;
+    padding-top: 4rem;
+    flex-wrap: wrap;
+}
+
+.fifth_section_200{
+    font-size: 2rem;
+    color: #00cec9;
+}
+.fifth_section_400{
+     font-size: 2rem;
+     color: #00cec9;
+}
+.fifth_section_270{
+    font-size: 2rem;
+     color: #00cec9;
+}
+.fifth_section_para{
+    font-size: 1.2rem;
+     font-family: 'Roboto', sans-serif;;
+}
+
+@media (max-width:500px){
+    
+    .fifth_section_para{
+        padding-bottom: 3rem;
+    }
+    
+}

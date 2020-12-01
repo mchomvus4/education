@@ -89,6 +89,22 @@ function Home() {
              </div>
              
           </section>
+          <section className="flex_fifth_section">
+             <div>
+                <p className="fifth_section_200"><b>200+ <br/>Prestigious'</b></p>
+                <p className="fifth_section_para">National Academies-honored faculty</p>
+             </div>
+            
+             <div>
+                <p className="fifth_section_400"><b>400+ Best Elite <br/>Programs</b></p>
+                <p className="fifth_section_para">leading, shaping changing our world</p>
+             </div>
+           
+             <div>
+                <p className="fifth_section_270"><b>270+ Athletic <br/>Championships</b></p>
+                <p className="fifth_section_para">National and conference titles</p>
+               </div>
+          </section>
             </>
     )
 }
