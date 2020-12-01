@@ -237,5 +237,11 @@ input{
     .forth_section_banner2{
         margin-left: 0rem;
     }
+      .para1,.para2,.para3,.para4,.para5,.sub_para2{
+        margin-left: 2rem;
+    }
+    .para5{
+        padding-bottom: 2rem;
+    }
 
 }
