@@ -5,6 +5,10 @@ import image2 from '../../images/img3.svg'
 import image3 from '../../images/img4.svg'
 import image4 from '../../images/img5.svg'
 import image5 from '../../images/img6.svg'
+import baner1 from '../../images/baner1.jpg'
+import baner2 from '../../images/baner2.jpg'
+
+
 import './Home.css';
 function Home() {
     return (
@@ -35,32 +39,56 @@ function Home() {
             <div className="flex_section">
                     <div className="image_bg">
                         
-                    <img src={image} alt="hakuna picha"/>
+                    <img className="secction2_img" src={image} alt="hakuna picha"/>
                    <p className="program">English Programs</p>    
                     </div>
                      <div className="image_bg">
-                      <img src={image1} alt="hakuna picha"/>
+                      <img className="secction2_img" src={image1} alt="hakuna picha"/>
                    <p className="program">2yr/Community </p>    
                 </div>
                  <div className="image_bg">
-                      <img src={image2} alt="hakuna picha"/>
+                      <img className="secction2_img" src={image2} alt="hakuna picha"/>
                    <p className="program">Master Degree</p>    
                 </div>
                  <div className="image_bg">
-                      <img src={image3} alt="hakuna picha"/>
+                      <img className="secction2_img" src={image3} alt="hakuna picha"/>
                    <p className="program">Certificate / Short</p>    
                 </div>
                  <div className="image_bg">
-                      <img src={image4} alt="hakuna picha"/>
+                      <img className="secction2_img" src={image4} alt="hakuna picha"/>
                    <p className="program">Summer Holidays</p>    
                 </div>
                  <div className="image_bg">
-                      <img src={image5} alt="hakuna picha"/>
+                      <img className="secction2_img" src={image5} alt="hakuna picha"/>
                    <p className="program">Scendary / Boarding</p>    
                 </div>
                     
            </div>
-        </section>
+          </section>
+          <section className="flex_third_section">
+             <div className="">
+                <p className="para1"><b>Innovation Powers The</b></p>
+                <p className="para2">NEW TANZANIAN UNIVERSITY <span className="sub_para2"><b>in</b></span></p>
+                <p className="para3"><b>Creating Next Generation</b></p>
+                <p className="para4">Voluptas sit aspernatur aut odit aut fugit,
+                    sed quias conseq lim magni<br/> squam est qui dolorem ipsum quiala. 
+                    Loluptolores eos qui ratione vol<br/> ust luptatem sequi que por tiu ut odi.<br/></p>
+                    <p className="para5">aut fugit, sed quias consequuntur magni dolores eoune isquam est<br/> qu dolorem ipsum quiala.</p>
+             </div>
+             
+             <div>
+               <img src={baner1} alt="baner1"/>
+             </div>
+          </section>
+          <section className="flex_fourth_section">
+             <div className="btn_fourth_section">
+               <a className="learn" href="#learn">LEARN MORE</a> <span className="or">or</span> <a className="history" href="#history">OUR HISTORY</a>
+             </div>
+             <div>
+                <img className="forth_section_banner2" src={baner2} alt="banner2"/>
+             </div>
+             
+          </section>
             </>
     )
 }

@@ -121,7 +121,7 @@ input{
 }
 
 
-img{
+.secction2_img{
     height: 5rem;
     width: 5rem;
     margin-top: 2rem;  
@@ -141,5 +141,101 @@ img{
 }
 .image_bg{
     padding: 2rem;
+
+}
+
+/* #############this is a third section############### */
+.flex_third_section{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.para1,.para3{
+    font-size: 2rem;
+}
+.para3{
+    padding-bottom: 2rem;
+}
+.para2{
+    font-size: 2rem;
+    color: #38ada9;
+}
+.sub_para2{
+    color: #000;
+}
+.para4{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+}
+.para5{
+    padding-top: 1rem;
+    font-size: 1.3rem;
+}
+
+/*################### this is a fourth section##################*/
+.flex_fourth_section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.forth_section_banner2{
+    margin-left: 0rem;
+}
+.learn{
+    text-decoration: none;
+    background: #00cec9;
+    padding: 1.3rem;
+    color: #fff;
+    border: 0.18rem solid #00cec9;
+
+}
+.history{
+    text-decoration: none;
+    background: #fff;
+    padding: 1.3rem;
+    color:  #00cec9;
+    border: 0.18rem solid #00cec9;
+
+}
+.btn_fourth_section{
+    padding-top: 5rem;
+    flex-wrap: wrap;
+}
+.learn:hover{
+    background: #fff;
+    color: #00cec9;
+    border: 0.18rem solid #00cec9;
+    border-radius: 0.1rem;
+}
+.history:hover{
+    background: #00cec9;
+    color: #fff;
+    border: 0.18rem solid #00cec9;
+    border-radius: 0.1rem;
+}
+
+.or{
+    padding: 0rem 1rem;
+}
+.forth_section_banner2{
+    margin-left: 17rem;
+}
+@media (max-width:768px){
+    .forth_section_banner2{
+    margin-left: 0rem;
+    padding-top: 5rem;
+    }
+}
+@media (max-width:425px){
+    .para1,.para2,.para3,.para4,.para5,.sub_para2{
+        margin-left: 2rem;
+    }
+}
+@media only screen and (max-width:500px){
+    .forth_section_banner2{
+        margin-left: 0rem;
+    }
 
 }
