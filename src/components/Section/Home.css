@@ -280,3 +280,81 @@ input{
     }
     
 }
+
+/*####################### sixth section################*/
+
+.flex_sixth_section{
+    padding-top: 5rem;
+    background: #ecf0f1;
+    margin-top: 6rem;
+  
+}
+.sixth_second_card{
+     background: #ecf0f1;
+}
+.sixth_section_heading{
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-align: center;
+}
+.sixth_section_border{
+    border-bottom: 0.25rem solid #e67e22;
+    width: 10%;
+    margin-left: 45%;
+}
+.sixth_section_sub{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.card_section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 3rem;
+}
+
+.card_section_image{
+    width: 24rem;
+    height: 18rem;
+}
+.card_body{
+    background: #fff;
+    box-shadow: .1rem .15rem 0.2rem;
+    transform: translateY(-50px);
+    transition: 0.5s;
+    
+
+}
+.buyer_comment{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2rem 0rem;
+}
+._buyer{
+ padding-right: 8rem;
+}
+.user_icon,.comment_icon{
+    color: #00cec9;
+}
+._course{
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+._course:hover{
+    color: #38ada9;
+    cursor: pointer;
+}
+.course_cost{
+    color: #38ada9;
+    padding: 1rem 0rem;
+   
+}
+.card_border{
+    border-bottom: 0.25rem solid #e67e22;
+    width: 10%;
+   
+    
+}
+

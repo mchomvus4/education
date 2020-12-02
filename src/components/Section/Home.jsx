@@ -7,6 +7,9 @@ import image4 from '../../images/img5.svg'
 import image5 from '../../images/img6.svg'
 import baner1 from '../../images/baner1.jpg'
 import baner2 from '../../images/baner2.jpg'
+import s6image2 from '../../images/s6-img2.jpg'
+import s6image3 from '../../images/s6-img3.jpg'
+import s6image4 from '../../images/s6-img4.jpg'
 
 
 import './Home.css';
@@ -104,6 +107,124 @@ function Home() {
                 <p className="fifth_section_270"><b>270+ Athletic <br/>Championships</b></p>
                 <p className="fifth_section_para">National and conference titles</p>
                </div>
+          </section>
+          <section className="flex_sixth_section">
+             <div className="">
+                <p className="sixth_section_heading"><b>interested online courses</b></p>
+                <div className="sixth_section_border"></div>
+                <p className="sixth_section_sub">leading, shaping changing our world</p>
+                
+             </div>
+             <div className="card_section">
+                
+             <div className="card_body">
+                <div className="card">
+                  <img src={s6image2} alt="card_image" className="card_section_image"/>
+                </div>
+                   <div className="buyer_comment">
+                      <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+            
+                   </div>
+                   <div className="_course"><p>JavaScript Online Course</p>
+                      <b><p className="course_cost">Free</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+                
+               
+                 <div className="card_body">
+                <div className="card">
+                  <img src={s6image3} alt="card_image" className="card_section_image"/>
+                </div>
+                <div className="buyer_comment">
+                   <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+                   </div>
+                   <div className="_course"><p>Chemistry Online Course</p>
+                      <b><p className="course_cost">$69.00</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+                
+                 <div className="card_body">
+                <div className="card">
+                  <img src={s6image4} alt="card_image" className="card_section_image"/>
+                </div>
+                <div className="buyer_comment">
+                  <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+                   </div>
+                   <div className="_course"><p>HTML/CSS3 Essentials</p>
+                      <b><p className="course_cost">$69.00</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+               
+              
+             </div>
+          </section>
+            {/* second cards */}
+          <section className="sixth_second_card">
+             <div className="card_section">
+                
+             <div className="card_body">
+                <div className="card">
+                  <img src={s6image2} alt="card_image" className="card_section_image"/>
+                </div>
+                   <div className="buyer_comment">
+                      <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+            
+                   </div>
+                   <div className="_course"><p>JavaScript Online Course</p>
+                      <b><p className="course_cost">Free</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+                
+               
+                 <div className="card_body">
+                <div className="card">
+                  <img src={s6image3} alt="card_image" className="card_section_image"/>
+                </div>
+                <div className="buyer_comment">
+                   <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+                   </div>
+                   <div className="_course"><p>Chemistry Online Course</p>
+                      <b><p className="course_cost">$69.00</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+                
+                 <div className="card_body">
+                <div className="card">
+                  <img src={s6image4} alt="card_image" className="card_section_image"/>
+                </div>
+                <div className="buyer_comment">
+                  <i class='fa fa-users user_icon'></i>
+                      <p className="_buyer">127 Buyers</p>
+                      <i class='fa fa-comment comment_icon'></i>
+                      <p className="_comment">0 Comment</p>
+                   </div>
+                   <div className="_course"><p>HTML/CSS3 Essentials</p>
+                      <b><p className="course_cost">$69.00</p></b>
+                      <div className="card_border"></div>
+                   </div>
+                </div>
+               
+             </div>
           </section>
             </>
     )
