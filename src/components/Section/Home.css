@@ -287,10 +287,13 @@ input{
     padding-top: 5rem;
     background: #ecf0f1;
     margin-top: 6rem;
+    
   
 }
 .sixth_second_card{
      background: #ecf0f1;
+     padding-bottom: 6rem;
+    
 }
 .sixth_section_heading{
     font-size: 2rem;
@@ -320,7 +323,7 @@ input{
 }
 .card_body:hover{
     transform: translateY(-20px);
-    transition: 0.5s;
+    transition: 0.8s;
 }
 .card_body{
     background: #fff;
@@ -359,3 +362,24 @@ input{
     
 }
 
+.all_courses{
+    text-decoration: none;
+    background: #00cec9;
+    padding: 1.3rem;
+    color: #fff;
+    border: 0.18rem solid #00cec9;
+    margin-left: 43%;
+    
+
+}
+
+.all_courses:hover{
+    background: #ecf0f1;
+    color: #00cec9;
+    border: 0.18rem solid #00cec9;
+    border-radius: 0.1rem;
+}
+.view_all_courses{
+    padding-top: 3rem;
+    
+}

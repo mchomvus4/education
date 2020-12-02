@@ -10,6 +10,8 @@ import baner2 from '../../images/baner2.jpg'
 import s6image2 from '../../images/s6-img2.jpg'
 import s6image3 from '../../images/s6-img3.jpg'
 import s6image4 from '../../images/s6-img4.jpg'
+import s6image5 from '../../images/s6-img5.jpg'
+import s6image6 from '../../images/s6-img6.jpg'
 
 
 import './Home.css';
@@ -87,9 +89,9 @@ function Home() {
              <div className="btn_fourth_section">
                <a className="learn" href="#learn">LEARN MORE</a> <span className="or">or</span> <a className="history" href="#history">OUR HISTORY</a>
              </div>
-             <div>
+             {/* <div>
                 <img className="forth_section_banner2" src={baner2} alt="banner2"/>
-             </div>
+             </div> */}
              
           </section>
           <section className="flex_fifth_section">
@@ -141,7 +143,7 @@ function Home() {
                 </div>
                 <div className="buyer_comment">
                    <i class='fa fa-users user_icon'></i>
-                      <p className="_buyer">127 Buyers</p>
+                      <p className="_buyer">123 Buyers</p>
                       <i class='fa fa-comment comment_icon'></i>
                       <p className="_comment">0 Comment</p>
                    </div>
@@ -157,7 +159,7 @@ function Home() {
                 </div>
                 <div className="buyer_comment">
                   <i class='fa fa-users user_icon'></i>
-                      <p className="_buyer">127 Buyers</p>
+                      <p className="_buyer">123 Buyers</p>
                       <i class='fa fa-comment comment_icon'></i>
                       <p className="_comment">0 Comment</p>
                    </div>
@@ -170,22 +172,22 @@ function Home() {
               
              </div>
           </section>
-            {/* second cards */}
+            {/* #######################second cards######################## */}
           <section className="sixth_second_card">
              <div className="card_section">
                 
              <div className="card_body">
                 <div className="card">
-                  <img src={s6image2} alt="card_image" className="card_section_image"/>
+                  <img src={s6image5} alt="card_image" className="card_section_image"/>
                 </div>
                    <div className="buyer_comment">
                       <i class='fa fa-users user_icon'></i>
-                      <p className="_buyer">127 Buyers</p>
+                      <p className="_buyer">125 Buyers</p>
                       <i class='fa fa-comment comment_icon'></i>
                       <p className="_comment">0 Comment</p>
             
                    </div>
-                   <div className="_course"><p>JavaScript Online Course</p>
+                   <div className="_course"><p>Visual Studio Online Course</p>
                       <b><p className="course_cost">Free</p></b>
                       <div className="card_border"></div>
                    </div>
@@ -194,16 +196,16 @@ function Home() {
                
                  <div className="card_body">
                 <div className="card">
-                  <img src={s6image3} alt="card_image" className="card_section_image"/>
+                  <img src={s6image6} alt="card_image" className="card_section_image"/>
                 </div>
                 <div className="buyer_comment">
                    <i class='fa fa-users user_icon'></i>
-                      <p className="_buyer">127 Buyers</p>
+                      <p className="_buyer">124 Buyers</p>
                       <i class='fa fa-comment comment_icon'></i>
                       <p className="_comment">0 Comment</p>
                    </div>
-                   <div className="_course"><p>Chemistry Online Course</p>
-                      <b><p className="course_cost">$69.00</p></b>
+                   <div className="_course"><p>Logo Design Classes</p>
+                      <b><p className="course_cost">Free</p></b>
                       <div className="card_border"></div>
                    </div>
                 </div>
@@ -218,14 +220,17 @@ function Home() {
                       <i class='fa fa-comment comment_icon'></i>
                       <p className="_comment">0 Comment</p>
                    </div>
-                   <div className="_course"><p>HTML/CSS3 Essentials</p>
+                   <div className="_course"><p>Print Design Teaching</p>
                       <b><p className="course_cost">$69.00</p></b>
                       <div className="card_border"></div>
                    </div>
                 </div>
                
              </div>
+             <div className="view_all_courses"><a className="all_courses" href="#all-courses">View All Courses</a> </div>
+
           </section>
+
             </>
     )
 }
