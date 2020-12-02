@@ -313,17 +313,18 @@ input{
     padding-bottom: 3rem;
 }
 
+
 .card_section_image{
     width: 24rem;
     height: 18rem;
 }
+.card_body:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
 .card_body{
     background: #fff;
     box-shadow: .1rem .15rem 0.2rem;
-    transform: translateY(-50px);
-    transition: 0.5s;
-    
-
 }
 .buyer_comment{
     display: flex;

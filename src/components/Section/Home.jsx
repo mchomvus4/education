@@ -108,6 +108,7 @@ function Home() {
                 <p className="fifth_section_para">National and conference titles</p>
                </div>
           </section>
+          {/* ################ card first section################## */}
           <section className="flex_sixth_section">
              <div className="">
                 <p className="sixth_section_heading"><b>interested online courses</b></p>
@@ -116,7 +117,6 @@ function Home() {
                 
              </div>
              <div className="card_section">
-                
              <div className="card_body">
                 <div className="card">
                   <img src={s6image2} alt="card_image" className="card_section_image"/>
