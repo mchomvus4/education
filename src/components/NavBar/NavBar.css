@@ -1,6 +1,9 @@
 
 
 header{
+    position:fixed;
+   
+    width: 100%;
     min-height: 7rem;
     background: #192a56;
     color: #f5f5f5;
