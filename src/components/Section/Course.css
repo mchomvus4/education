@@ -1,0 +1,28 @@
+.flex_course_section{
+        padding-top: 8rem; 
+        background-image: url(../../images/library3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 50vh;
+       
+}
+.course h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 1.5rem;
+    
+}
+.course span{
+    text-transform: uppercase;
+}
+
+.homepage{
+    color: #00cec9;
+    cursor: pointer;
+}
+.homepage:hover{
+    color: #fff;
+}

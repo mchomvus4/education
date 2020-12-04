@@ -1,10 +1,14 @@
-import React from 'react'
-
+import React from 'react';
+import './Course.css';
 function Course() {
     return (
-        <div>
-            <h2>Course Component</h2>
-        </div>
+        <section className="flex_course_section">
+            <div className="course">
+                <h2>Courses <br/><span className="homepage">homepage</span><span>- courses</span> </h2>
+                
+           </div>
+            
+       </section>
     )
 }
 
