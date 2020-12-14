@@ -29,11 +29,23 @@
         color: #fff;
 }
 /*end of the first section css code*/
-.flex_main{
-    margin-top: 6rem;
-    width: 60%;
-    margin-left: 5%;
+
+.main_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 4rem;
 }
+.leftsidebar{
+    width: 70%;
+    
+}
+.leftsidebar{
+    width: 25%;
+}
+.main_container{
+    margin: 0rem 10rem;
+}
+
 .flex_right{
     background: #00cec9;
    
@@ -44,6 +56,7 @@
     border-radius: 0.2rem;
     display: flex;  
     flex-wrap: wrap;
+    
 }
 .search_th {
     color: #00cec9;
@@ -72,6 +85,7 @@
     margin-top: 2rem;
     background: #fff;
     justify-content: space-between; 
+    
 }
 .course_image{
     width: 15rem;
@@ -85,6 +99,8 @@
     box-shadow: .1rem .13rem 0.3rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
+    margin: 0rem 0.5rem;
+    
 }
 .course_image:hover{
  
@@ -119,11 +135,10 @@
     }
 }
 
-/* side bar */
-
-._search{
-   
-  float: right;
-  top: 0;
-  left: 0;
+/* left side bar css */
+._search_left{
+    padding-top: 2rem;
+    border-left: 3px solid #16a085;
+   line-height: 2rem;
 }
+   

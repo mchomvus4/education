@@ -1,6 +1,6 @@
 import React from 'react';
 import './Course.css';
-import image1 from '../../images/s6-img3.jpg';
+ import image1 from '../../images/s6-img3.jpg';
 function Course() {
     return (
         <>
@@ -10,19 +10,10 @@ function Course() {
            </div>
             </section>
             
-            <section className="flex_main">
-               <div className="search_bar">
-                    <li className="fa fa-th fa-2x search_th "></li>  &nbsp; &nbsp;
-                    <li className="fa fa-list fa-2x search_list"></li>
-                    <p className="showing">Showing 1 to 9 of 11</p>
-                    <div className="btn_btn_search">
-                        <li className="fa fa-search"></li>
-                    </div>
-                    <input className="input" type="text" placeholder="Type a search" />
+            <section className="main_section">
+                <div className="leftsidebar">
                    
-                    
-            </div>
-             <section className="courses_price">
+                    <section className="courses_price">
                  <div className="card_body_course">
                     <div className="card">
                     <img src={image1} alt="card_image" className="course_image"/>
@@ -31,7 +22,7 @@ function Course() {
                         <i className='fa fa-users user_icon'></i>
                             <p className="_course_cost">124 Buyers</p>
                             <i className='fa fa-comment comment_icon'></i>
-                            <p className="_comment">0 Comment</p>
+                            <p className="_comment">0 </p>
                         </div>
                         <div className="">
                             <b><p className="php_master">PHP Master and<br /> Make Money</p></b> 
@@ -48,7 +39,7 @@ function Course() {
                                 <i className='fa fa-users user_icon'></i>
                                     <p className="_course_cost">101 Buyers</p>
                                     <i className='fa fa-comment comment_icon'></i>
-                                    <p className="_comment">0 Comment</p>
+                                    <p className="_comment">0 </p>
                                 </div>
                             <div className="">
                                 <b><p className="php_master">Complete Guide to<br /> Photography</p></b> 
@@ -64,7 +55,7 @@ function Course() {
                                 <i className='fa fa-users user_icon'></i>
                                     <p className="_course_cost">101 Buyers</p>
                                     <i className='fa fa-comment comment_icon'></i>
-                                    <p className="_comment">0 Comment</p>
+                                    <p className="_comment">0 </p>
                                 </div>
                             <div className="">
                                 <b><p className="php_master">From Zero to Hero<br /> with Nodejs</p></b> 
@@ -73,8 +64,8 @@ function Course() {
                   
                      </div>
                     
-                </section>
-                {/* second card row */}
+                    </section>
+                     {/* second card row */}
                 <section className="courses_price">
                  <div className="card_body_course">
                     <div className="card">
@@ -84,7 +75,7 @@ function Course() {
                         <i className='fa fa-users user_icon'></i>
                             <p className="_course_cost">101 Buyers</p>
                             <i className='fa fa-comment comment_icon'></i>
-                            <p className="_comment">0 Comment</p>
+                            <p className="_comment">0 </p>
                         </div>
                         <div className="">
                             <b><p className="php_master">Introduction Learn<br /> LMS Plugin</p></b> 
@@ -101,7 +92,7 @@ function Course() {
                                 <i className='fa fa-users user_icon'></i>
                                     <p className="_course_cost">101 Buyers</p>
                                     <i className='fa fa-comment comment_icon'></i>
-                                    <p className="_comment">0 Comment</p>
+                                    <p className="_comment">0 </p>
                                 </div>
                             <div className="">
                                 <b><p className="php_master">Learn Web Graphic<br /> Design</p></b> 
@@ -117,7 +108,7 @@ function Course() {
                                 <i className='fa fa-users user_icon'></i>
                                     <p className="_course_cost">100 Buyers</p>
                                     <i className='fa fa-comment comment_icon'></i>
-                                    <p className="_comment">0 Comment</p>
+                                    <p className="_comment">0 </p>
                                 </div>
                             <div className="">
                                 <b><p className="php_master">Print Designing<br />Teaching</p></b> 
@@ -127,8 +118,15 @@ function Course() {
                      </div>
                    
                 </section>
-             
-            </section>
+                </div>
+
+                <div className="leftsidebar">
+                    <div className="_search_left">
+                        <p style={{fontSize:'2rem'}}><b>Search</b></p>
+                        <p style={{color:'#16a085'}}>Leave your keyword</p>
+                  </div>
+                    </div>
+           </section>
             
                
             
