@@ -1,4 +1,35 @@
+
+.about{
+     padding-top: 10rem; 
+        background-image: url(../../images/library3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        height: 50vh;
+}
+
+
+.about h2{
+        color: #fff;
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 1.5rem;
+    
+}
+.about span{
+        text-transform: uppercase;
+}
+
+.homepage{
+        color: #00cec9;
+        cursor: pointer;
+}
+.homepage:hover{
+        color: #fff;
+}
 .flex_about{
+    margin-top: 20rem;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -22,4 +53,36 @@
 .panding{
     text-align: center;
     color: #e55039;
+}
+
+/* section two css */
+
+.section_two{
+    display: flex;
+    justify-content: space-around;
+}
+.section_two_p01{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+.section_two_one h2{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.icon_section{
+    color: #00cec9;
+  
+}
+.section_two_p02{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* media query section */
+@media screen and (max-width:768px){
+    .flex_about,
+    .section_two{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

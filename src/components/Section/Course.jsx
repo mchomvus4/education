@@ -120,7 +120,7 @@ function Course() {
                 </section>
                 </div>
 
-                <div className="leftsidebar">
+                <div className="rightsidebar">
                     <div className="_search_left">
                         <p style={{fontSize:'2rem'}}><b>Search</b></p>
                         <p style={{color:'#16a085'}}>Leave your keyword</p>
@@ -130,7 +130,26 @@ function Course() {
                         <p style={{fontSize:'2rem'}}><b>LATEST COURSES</b></p>
                         <p style={{ color: '#16a085'}}>Tutorial Will Introduce You</p>
                     </div>
-                    <img className="side_image" src={image1} alt="side_image"/>
+                    <div className="right">
+                    <img className="side_image" src={image1} alt="side_image" />
+                        <p className="php">PHP Master and Make Money<br/><span style={{color:'#16a085'}}>Free</span></p>
+                        
+                    </div>
+                     <div className="right">
+                    <img className="side_image" src={image1} alt="side_image" />
+                        <p className="php">Complete Guide to Photography<br/><span style={{color:'#16a085'}}>$69.00</span></p>
+                        
+                    </div>
+                     <div className="right">
+                    <img className="side_image" src={image1} alt="side_image" />
+                        <p className="php">From Zero to Hero with Nodejs<br/><span style={{color:'#16a085'}}>$69.00</span></p>
+                        
+                    </div>
+                     <div className="right">
+                    <img className="side_image" src={image1} alt="side_image" />
+                        <p className="php">Introduction Learn LMS Plugin<br/><span style={{color:'#16a085'}}>$69.00</span></p>
+                        
+                    </div>
                     </div>
            </section>
             

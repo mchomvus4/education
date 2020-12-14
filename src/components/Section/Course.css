@@ -37,54 +37,32 @@
 }
 .leftsidebar{
     width: 70%;
-    
 }
-.leftsidebar{
+.rightsidebar{
     width: 25%;
 }
-.main_container{
-    margin: 0rem 10rem;
+.main_section{
+    margin: 0rem 4%;
+    flex-wrap: wrap;
 }
 
 .flex_right{
     background: #00cec9;
    
 }
-.search_bar{
-    background: #ecf0f1;
-    padding: 2.5rem;
-    border-radius: 0.2rem;
-    display: flex;  
-    flex-wrap: wrap;
-    
-}
-.search_th {
-    color: #00cec9;
-}
-.search_list{
-    color: #bdc3c7;
-}
+
+
 .showing{
     padding: 0.5rem;
     flex-wrap: nowrap;
 }
-.input{
-    width: 20rem;
-    border-radius: 4rem;
-    border: none;
-    outline: none;
-}
-.btn_btn_search{
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 6rem;
-}
+
 .courses_price{
     display: flex;
     margin-top: 2rem;
     background: #fff;
     justify-content: space-between; 
+    padding-bottom: 1rem;
     
 }
 .course_image{
@@ -93,13 +71,13 @@
     border-radius: 0.2rem;
     transition: transform .4s;
 
+
 }
 .card_body_course{
     background: #fff;
     box-shadow: .1rem .13rem 0.3rem;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
-    margin: 0rem 0.5rem;
+    margin-bottom: 1rem;
+    margin: 0rem 0.8rem;
     
 }
 .course_image:hover{
@@ -146,4 +124,22 @@
     width: 8rem;
     height: 8rem;
     padding-top: 2rem;
+}
+.right{
+    display: flex;
+}
+.php{
+    padding-top: 3rem;
+    margin: 0rem 0.5rem;
+}
+@media screen and (max-width:500px){
+.main_section{
+    flex-direction: column;
+}
+}
+
+@media screen and (max-width:768px){
+.main_section{
+    flex-direction: column;
+}
 }
