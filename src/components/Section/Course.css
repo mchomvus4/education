@@ -1,4 +1,4 @@
-.flex_course_section{
+.flex_first_section{
         padding-top: 8rem; 
         background-image: url(../../images/library3.jpg);
         background-repeat: no-repeat;
@@ -7,22 +7,114 @@
         background-position: center;
         height: 50vh;
        
+       
 }
+
 .course h2{
-    color: #fff;
-    text-align: center;
-    padding-top: 5rem;
-    font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+        padding-top: 5rem;
+        font-size: 1.5rem;
     
 }
 .course span{
-    text-transform: uppercase;
+        text-transform: uppercase;
 }
 
 .homepage{
-    color: #00cec9;
-    cursor: pointer;
+        color: #00cec9;
+        cursor: pointer;
 }
 .homepage:hover{
-    color: #fff;
+        color: #fff;
+}
+/*end of the first section css code*/
+.flex_main{
+    margin-top: 6rem;
+    width: 60%;
+    margin-left: 5%;
+}
+.flex_right{
+    background: #00cec9;
+   
+}
+.search_bar{
+    background: #ecf0f1;
+    padding: 2.5rem;
+    border-radius: 0.2rem;
+    display: flex;  
+    flex-wrap: wrap;
+}
+.search_th {
+    color: #00cec9;
+}
+.search_list{
+    color: #bdc3c7;
+}
+.showing{
+    padding: 0.5rem;
+    flex-wrap: nowrap;
+}
+.input{
+    width: 20rem;
+    border-radius: 4rem;
+    border: none;
+    outline: none;
+}
+.btn_btn_search{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 6rem;
+}
+.courses_price{
+    display: flex;
+    margin-top: 2rem;
+    background: #fff;
+    justify-content: space-between; 
+}
+.course_image{
+    width: 15rem;
+    height: 12rem;
+    border-radius: 0.2rem;
+    transition: transform .4s;
+
+}
+.card_body_course{
+    background: #fff;
+    box-shadow: .1rem .13rem 0.3rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.course_image:hover{
+ 
+  transform: scale(1.01);
+}
+.php_master{
+    text-align: center;
+     padding-bottom: 1rem;
+
+}
+.php_master:hover{
+    color: #16a085;
+    cursor: pointer;
+}
+._border{
+    border-top: 0.15rem solid #95a5a6;
+    text-align: center;
+    margin: 0rem 30%;
+    color: #1abc9c;
+    margin-bottom: 3rem;
+}
+/* media query section */
+@media only screen and (max-width:500px){
+    .courses_price{
+        flex-wrap: wrap;
+       
+    }
+}
+@media screen and (max-width:768px){
+    .courses_price{
+       flex-wrap: wrap;
+    }
 }
