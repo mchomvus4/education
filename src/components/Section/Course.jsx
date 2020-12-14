@@ -127,7 +127,7 @@ function Course() {
                      </div>
                    
                 </section>
-             <p className="_search">Search</p>
+             
             </section>
             
                
