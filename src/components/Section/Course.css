@@ -138,7 +138,12 @@
 /* left side bar css */
 ._search_left{
     padding-top: 2rem;
-    border-left: 3px solid #16a085;
-   line-height: 2rem;
+    /* border-left: #00aaad solid 3px; */
+ 
 }
    
+.side_image{
+    width: 8rem;
+    height: 8rem;
+    padding-top: 2rem;
+}

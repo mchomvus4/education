@@ -124,7 +124,13 @@ function Course() {
                     <div className="_search_left">
                         <p style={{fontSize:'2rem'}}><b>Search</b></p>
                         <p style={{color:'#16a085'}}>Leave your keyword</p>
-                  </div>
+                    </div>
+                    
+                    <div className="_search_left">
+                        <p style={{fontSize:'2rem'}}><b>LATEST COURSES</b></p>
+                        <p style={{ color: '#16a085'}}>Tutorial Will Introduce You</p>
+                    </div>
+                    <img className="side_image" src={image1} alt="side_image"/>
                     </div>
            </section>
             
