@@ -118,3 +118,12 @@
        flex-wrap: wrap;
     }
 }
+
+/* side bar */
+
+._search{
+   
+  float: right;
+  top: 0;
+  left: 0;
+}
