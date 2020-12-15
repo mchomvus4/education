@@ -46,7 +46,7 @@ function About() {
                     <p className="section_two_p02"><i className="fa fa-caret-right icon_section" ></i>LIVE PROJECT End to End Software Testing Training Included.</p>
                     <p className="section_two_p02"><i className="fa fa-caret-right icon_section" ></i> Learn Software Testing and Automation basics from a professional trainer.</p>
                     <div className="_started">
-                        <a className="started" href="#">GET STARTED</a>
+                        <a className="started" href="#about">GET STARTED</a>
                     </div>
                 </div>
                 <div className="section_two-two">
