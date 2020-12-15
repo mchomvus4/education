@@ -141,7 +141,7 @@
 .card_text_p{
     color: #00cec9;
 }
-.card{
+.card_image{
     background: #fff;
     padding-bottom:4rem;
     border-radius: .3rem;
@@ -149,7 +149,7 @@
     box-shadow: .1rem .13rem 0.3rem;
       
 }
-.card:hover{
+.card_image:hover{
     transform: scale(1.01);
 }
 ._social_icon{

@@ -59,7 +59,7 @@ function About() {
                     <p style={{textAlign:'center'}}>The pie and we know flipper lives in a worl the clouds away</p>
                 </div>
                 <div className="card_container">
-                <div className="card">
+                <div className="card_image">
                         <div className="card_img">
                             <img className="_image_size" src={sam} alt=""/>
                     </div>
@@ -72,7 +72,7 @@ function About() {
                     </div>
                    
                     </div>
-                    <div className="card">
+                    <div className="card_image">
                         <div className="card_img">
                             <img className="_image_size" src={sam} alt=""/>
                     </div>
@@ -85,7 +85,7 @@ function About() {
                     </div>
                    
                     </div>
-                    <div className="card">
+                    <div className="card_image">
                         <div className="card_img">
                             <img className="_image_size" src={sam} alt=""/>
                     </div>
@@ -99,7 +99,7 @@ function About() {
                    
                 </div>
 
-                 <div className="card">
+                 <div className="card_image">
                         <div className="card_img">
                             <img className="_image_size" src={sam} alt=""/>
                     </div>
