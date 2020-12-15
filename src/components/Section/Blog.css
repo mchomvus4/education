@@ -43,6 +43,9 @@
     padding: 3rem 0rem;
 
 }
+._blogborder{
+    border-top: 1px solid #bdc3c7;
+}
 
 @media screen and (max-width:400px){
     ._spanblog{

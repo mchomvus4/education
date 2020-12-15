@@ -17,7 +17,7 @@ function Blog() {
                     <i className="far fa-user _blog_icon"></i> <span className="_spanblog">by samwel </span> 
                     <i class="far fa-calendar _blog_icon"></i> <span className="_spanblog">Posted on 15Dec, 2020</span>
                     <i class="fas fa-folder _blog_icon"></i><span className="_spanblog">In Ideas</span>
-                   <div className="">
+                   <div className="_blogborder">
                     <p className="_blog_p01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,<br/> when an unknown printer took a galley of type and scrambled it to make a type specimen book…</p>
                     </div>
                     <div className="_blogstarted">
@@ -32,7 +32,7 @@ function Blog() {
                     <i className="far fa-user _blog_icon"></i><span className="_spanblog">by samwel </span>  
                     <i class="far fa-calendar _blog_icon"></i><span className="_spanblog">Posted on 15Dec, 2020</span>
                     <i class="fas fa-folder _blog_icon"></i><span className="_spanblog">In Ideas</span>
-                    <div className="">
+                    <div className="_blogborder">
                         <p className="_blog_p01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,<br /> when an unknown printer took a galley of type and scrambled it to make a type specimen book…</p>
                     </div>
                     <div className="_blogstarted">
@@ -47,7 +47,7 @@ function Blog() {
                     <i className="far fa-user _blog_icon"></i><span className="_spanblog">by samwel </span>  
                     <i class="far fa-calendar _blog_icon"></i><span className="_spanblog">Posted on 15Dec, 2020</span>
                     <i class="fas fa-folder _blog_icon"></i><span className="_spanblog">In Ideas</span>
-                    <div className="">
+                    <div className="_blogborder">
                         <p className="_blog_p01">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br /> Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s,<br /> when an unknown printer took a galley of type and scrambled it to make a type specimen book…</p>
                     </div>
                     <div className="_blogstarted">
