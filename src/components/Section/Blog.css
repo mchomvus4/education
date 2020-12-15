@@ -1,0 +1,45 @@
+.blog_section{
+    padding-top: 10rem; 
+}
+.blog_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 5%;
+    flex-wrap: wrap;
+}
+
+
+/* blog left css */
+.blog_left h2{
+    padding-top: 2rem;
+}
+.blog_left h2:hover{
+    color: #16a085;
+    cursor: pointer;
+}
+._blog_image_size{
+    width: 100%;
+    padding-top: 1rem;
+}
+._blog_icon{
+    color: #16a085;
+    margin:1rem;
+}
+._blog_p01{
+    line-height: 2rem;
+}
+
+.blogstarted{
+    background: #00cec9;
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;   
+    border-radius: 2rem;
+}
+.blogstarted:hover{
+    background: #000;
+}
+._blogstarted{
+    padding: 3rem 0rem;
+
+}
