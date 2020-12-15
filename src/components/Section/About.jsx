@@ -6,6 +6,7 @@ import book from '../../images/books.svg';
 import student from '../../images/student.svg';
 import diploma from '../../images/diploma.svg';
 import about from '../../images/about-img.png';
+import sam from '../../images/sam.png';
 function About() {
     return (
         <>
@@ -44,9 +45,73 @@ function About() {
                     <p className="section_two_p02"><i className="fa fa-caret-right icon_section" ></i>Over 37 lectures and 55.5 hours of content!</p>
                     <p className="section_two_p02"><i className="fa fa-caret-right icon_section" ></i>LIVE PROJECT End to End Software Testing Training Included.</p>
                     <p className="section_two_p02"><i className="fa fa-caret-right icon_section" ></i> Learn Software Testing and Automation basics from a professional trainer.</p>
+                    <div className="_started">
+                        <a className="started" href="#">GET STARTED</a>
+                    </div>
                 </div>
                 <div className="section_two-two">
                     <img src={about} alt="about_img"/>
+                </div>
+            </section>
+            <section className="section_three">
+                <div className="team">
+                    <h2>Our Experienced Staff</h2>
+                    <p style={{textAlign:'center'}}>The pie and we know flipper lives in a worl the clouds away</p>
+                </div>
+                <div className="card_container">
+                <div className="card">
+                        <div className="card_img">
+                            <img className="_image_size" src={sam} alt=""/>
+                    </div>
+                    <div className="card_text">
+                        <h3 className="_name" >SAMWEL MCHOMVU</h3>
+                            <p className="card_text_p">Head of Department</p>
+                            <i class="fab fa-facebook _social_icon"></i>
+                            <i class="fab fa-google-plus _social_icon"></i>
+                            <i class="fab fa-twitter _social_icon"></i>
+                    </div>
+                   
+                    </div>
+                    <div className="card">
+                        <div className="card_img">
+                            <img className="_image_size" src={sam} alt=""/>
+                    </div>
+                    <div className="card_text">
+                        <h3 className="_name" >SAMWEL MCHOMVU</h3>
+                            <p className="card_text_p">Professor</p>
+                              <i class="fab fa-facebook _social_icon"></i>
+                            <i class="fab fa-google-plus _social_icon"></i>
+                            <i class="fab fa-twitter _social_icon"></i>
+                    </div>
+                   
+                    </div>
+                    <div className="card">
+                        <div className="card_img">
+                            <img className="_image_size" src={sam} alt=""/>
+                    </div>
+                    <div className="card_text">
+                        <h3 className="_name" >SAMWEL MCHOMVU</h3>
+                        <p className="card_text_p">Chemistry Teacher</p>
+                          <i class="fab fa-facebook _social_icon"></i>
+                            <i class="fab fa-google-plus _social_icon"></i>
+                            <i class="fab fa-twitter _social_icon"></i>
+                    </div>
+                   
+                </div>
+
+                 <div className="card">
+                        <div className="card_img">
+                            <img className="_image_size" src={sam} alt=""/>
+                    </div>
+                    <div className="card_text">
+                        <h3 className="_name" >SAMWEL MCHOMVU</h3>
+                        <p className="card_text_p">Instructor</p>
+                          <i class="fab fa-facebook _social_icon"></i>
+                            <i class="fab fa-google-plus _social_icon"></i>
+                            <i class="fab fa-twitter _social_icon"></i>
+                    </div>
+                   
+                </div>
                 </div>
             </section>
             </>

@@ -43,23 +43,41 @@
     width: 5rem;
     margin-top: 2rem; 
 }
-
+.started{
+    background: #00cec9;
+    text-decoration: none;
+    padding: 1rem;
+    color: #fff;   
+    border-radius: 2rem;
+}
+.started:hover{
+    background: #000;
+}
+._started{
+    padding-top: 2rem;  
+}
 @media only screen and (max-width:500px){
-    .flex_about{
-        flex-direction: column;
-        align-items: center;
+.flex_about{
+     flex-direction: column;
+     align-items: center;
     }
+.section_two-two{
+    margin-top: 4rem;
+}
+
 }
 .panding{
     text-align: center;
     color: #e55039;
 }
 
+
 /* section two css */
 
 .section_two{
     display: flex;
     justify-content: space-around;
+   
 }
 .section_two_p01{
     line-height: 2rem;
@@ -80,9 +98,67 @@
 
 /* media query section */
 @media screen and (max-width:768px){
-    .flex_about,
-    .section_two{
-        flex-direction: column;
-        justify-content: center;
+.flex_about,
+.section_two{
+    flex-direction: column;
+    align-items: center;
     }
+}
+
+ .section_three{
+     background: #fcfcfc;
+ }
+/* team css */
+.team{
+    margin-top: 6rem;
+    padding-top: 6rem;
+}
+.team h2{
+    text-align: center;
+}
+.card_container{
+    display: flex;
+    align-items: center;
+    justify-content:  space-evenly;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+   
+}
+._image_size{
+    width: 15rem;
+    height: 100%;
+}
+.card_text{
+    text-align: center;
+    line-height: 2rem;
+    margin-top: 2rem;
+    
+}
+._name:hover{
+    color: #00cec9;
+    cursor: pointer;
+}
+.card_text_p{
+    color: #00cec9;
+}
+.card{
+    background: #fff;
+    padding-bottom:4rem;
+    border-radius: .3rem;
+    margin-bottom: 4rem;
+    box-shadow: .1rem .13rem 0.3rem;
+      
+}
+.card:hover{
+    transform: scale(1.01);
+}
+._social_icon{
+    font-size: 2rem;
+    padding: 0rem 0.5rem;
+    margin-top: 1rem;
+    color: #bdc3c7
+
+}
+._social_icon:hover{
+    color: #16a085;
 }
