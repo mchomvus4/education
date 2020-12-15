@@ -43,3 +43,9 @@
     padding: 3rem 0rem;
 
 }
+
+@media screen and (max-width:400px){
+    ._spanblog{
+       font-size: 0.5rem;
+    }
+}
