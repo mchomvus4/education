@@ -86,7 +86,7 @@ function Home() {
           </section>
           <section className="flex_fourth_section">
              <div className="btn_fourth_section">
-               <a className="learn" href="#learn">LEARN MORE</a> <span className="or">or</span> <a className="history" href="#history">OUR HISTORY</a>
+               {/* <a className="learn" href="#learn">LEARN MORE</a> <span className="or">or</span> <a className="history" href="#history">OUR HISTORY</a> */}
              </div>
              {/* <div>
                 <img className="forth_section_banner2" src={baner2} alt="banner2"/>
