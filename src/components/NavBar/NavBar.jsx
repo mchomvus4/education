@@ -24,7 +24,7 @@ class NavBar extends Component {
                         {/* <li><Link to="/page">Pages</Link></li>
                         <li><Link to="/event">Events</Link></li> */}
                         <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        {/* <li><Link to="/contact">Contact</Link></li> */}
                         <li className="close" onClick={this.menuToggle}>X</li>
                     </ul>
                     <div className="menu" onClick={this.menuToggle}>Menu</div>

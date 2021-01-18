@@ -57,9 +57,6 @@ function Blog() {
 
 
 
-
-
-
                 <div className="blog_right">
                     <div className="_search_left">
                         <p style={{fontSize:'2rem'}}><b>Search</b></p>
